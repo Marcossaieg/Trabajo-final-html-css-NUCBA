@@ -10,6 +10,10 @@ html{
     font-family:mahoni;
     src: url(./font-titulo/mahoni/mahoni-font.ttf);
 }
+@font-face{
+    font-family:cursiva;
+    src:url(./font-titulo/cursiva/learning_curve_alt_G_regular_ot_ps.otf)
+}
 
 .navbar1{
     width: 100%;
@@ -224,17 +228,18 @@ font-size: 1.2rem;
 
 .cont-header{
     width: 90%;
-    height: 80%;
+    height: 100%;
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-image: url(./foto-header/brindis.jpg);
     background-size: cover;
 }
 
 .titulo{
+    padding-top: 6rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100;
     color: white;
@@ -243,11 +248,28 @@ font-size: 1.2rem;
     color: rgba(53, 5, 53, 0.719);
 }
 .subtitulo{
-    font-family: mahoni;
-    font-weight:lighter;
-    font-size: 50;
+    padding-bottom: 3rem;
+    font-family: cursiva;
+    font-size: 75;
     color: whitesmoke;
 }
 .subtitulo:hover{
-    color: rgba(53, 5, 53, 0.719);
+    color: rgba(53, 5, 53, 0.822);
+}
+.btn-comenzar{
+    box-sizing: 20rem;
+    background-color: rgba(53, 5, 53, 0.719); ;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 3.5rem;
+    height: 10rem;
+    width: 30rem;
+}
+.link-btn-comenzar{
+    text-decoration: none;
+    color: white;
+}
+.link-btn-comenzar:hover{
+    zoom: 120%;
 }
