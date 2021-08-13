@@ -1,0 +1,253 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family:mahoni;
+    src: url(./font-titulo/mahoni/mahoni-font.ttf);
+}
+
+.navbar1{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 11px 21px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 11px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 21px 0px rgba(0,0,0,0.75);
+}
+
+.cont-mini-nav1{
+    width: 70%;
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-nav1{
+    width: 100%;
+    padding-left: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.list-nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.p-nav1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem; 
+    
+}
+.p-nav1:hover{
+    color: rgb(241, 179, 64);
+}
+
+
+.cont-mini-nav1-2{
+    width: 30%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.cont-nav1-2{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.list-nav1-2{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem; 
+    list-style: none;
+}
+.crear-cuenta{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+}
+.crear-cuenta:hover{
+    color: rgb(241, 179, 64);
+}
+.login{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.login:hover{
+    color: rgb(241, 179, 64);
+}
+
+.list-nav1-carrito{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+}
+.nav-carrito{
+    width: 100%;
+    height: 1.6rem;
+}
+.list-nav1-notificacion{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style: none; 
+}
+.nav-noti{    
+    width: 100%;
+    height: 1.5rem;
+}
+
+.navbar2{
+    
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/fondo-navbar2/corchos-de-arriba.jpg);
+    image-rendering:auto;
+    box-shadow: 0px 11px 21px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 11px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 21px 0px rgba(0,0,0,0.75);
+}
+.navbar2:hover{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+}
+
+.cont-mini-nav2{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont-nav2{
+    width: 80%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.list-nav2{
+    list-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quienes-somos{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.quienes-somos:hover{
+    color: black ;
+    
+}
+.vinos{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.vinos:hover{
+    color: rgb(241, 179, 64);
+}
+.pack-de-blends{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.pack-de-blends:hover{
+    color: rgb(241, 179, 64);
+}
+.catas-corporativas{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.catas-corporativas:hover{
+    color: rgb(241, 179, 64);
+    
+}
+.newsletter{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.newsletter:hover{
+    color: black
+}
+
+.header{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+}
+
+.cont-header{
+    width: 90%;
+    height: 80%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./foto-header/brindis.jpg);
+    background-size: cover;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100;
+    color: white;
+}
+.titulo:hover{
+    color: rgba(53, 5, 53, 0.719);
+}
+.subtitulo{
+    font-family: mahoni;
+    font-weight:lighter;
+    font-size: 50;
+    color: whitesmoke;
+}
+.subtitulo:hover{
+    color: rgba(53, 5, 53, 0.719);
+}
